@@ -108,7 +108,11 @@ html {
 
   .clearfix {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+  }
+
+  .function-image{
+    margin: 20px;
   }
 
 
@@ -116,6 +120,7 @@ html {
   .function-image h1 {
     text-align: center;
   }
+
 
   /* function */
 
@@ -127,13 +132,17 @@ html {
     bottom: 0;
     width: 100%;
     height: 70px;
+   
     background-color: #283A4B;
     color:#fff;
     margin-bottom: 0;
     
   /* footer部分の実装 */
   }
-  p {
-    margin: 0 ;
-    margin-top: 20;
+  footer p {
+    margin: 10px 0 ;
+  }
+
+  section{
+    top: 0;
   }
